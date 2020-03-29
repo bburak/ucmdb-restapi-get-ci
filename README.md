@@ -14,3 +14,20 @@ CI.java  | Class represents Configuration Item from ucmdb call result. Configura
 * The REST API works with UCMDB Server 10.10 or higher versions 
 * Java 1.8.0_231
 * Apache Maven
+
+### Clone
+
+- Clone this repo to your local machine using `https://github.com/bburak/ucmdb-restapi-get-ci.git`
+
+### Setup
+
+> If you want to run this project in your environment:
+
+- Make sure the Maven dependencies are installed.
+- Open Eclipse's embedded terminal.
+- And then Execute this command line by line.
+
+```shell
+$ mvn clean compile assembly:single
+$ java -cp target/RestAPI_UCMDB-0.0.1-SNAPSHOT-jar-with-dependencies.jar tr.com.controller.Controller
+```
