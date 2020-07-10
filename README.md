@@ -1,5 +1,5 @@
 # ucmdb-restapi-get-ci
-This project provides information on how to use UCMDB REST API and performs the use by means of Java Console Application. It's provides the following api calls two to endpoints.
+This project provides information on how to use UCMDB REST API and performs the use by means of Java Console Application. It provides calls to the two endpoints below.
 * <base_url>/rest-api/getCI
 * <base_url>/rest-api/executeTQL (in-progress)
 
